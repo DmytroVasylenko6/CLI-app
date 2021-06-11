@@ -1,0 +1,27 @@
+{
+  "name": "cli-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmytroVasylenko6/CLI-app.git"
+  },
+  "author": "Vasylenko D.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmytroVasylenko6/CLI-app/issues"
+  },
+  "homepage": "https://github.com/DmytroVasylenko6/CLI-app#readme",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "uid": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
